@@ -5,7 +5,7 @@
 
 Summary:	%{_pearname} - makes HTML tables easy, flexible, reusable and efficient
 Name:		php-pear-%{_pearname}
-Version:	1.7.5
+Version:	1.8.0
 Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
