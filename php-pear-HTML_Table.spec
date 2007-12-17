@@ -16,7 +16,6 @@ Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 The PEAR::HTML_Table package provides methods for easy and efficient
