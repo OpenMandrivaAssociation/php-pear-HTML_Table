@@ -3,8 +3,8 @@
 %define		upstream_name	%{_class}_%{_subclass}
 
 Name:		php-pear-%{upstream_name}
-Version:	1.8.2
-Release:	%mkrel 4
+Version:	1.8.3
+Release:	%mkrel 1
 Summary:	Makes HTML tables easy, flexible, reusable and efficient
 License:	PHP License
 Group:		Development/PHP
