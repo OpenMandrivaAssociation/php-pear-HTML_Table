@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.8.3
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	Makes HTML tables easy, flexible, reusable and efficient
 License:	PHP License
 Group:		Development/PHP
