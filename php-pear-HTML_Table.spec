@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.8.3
-Release:	%mkrel 3
+Release:	4
 Summary:	Makes HTML tables easy, flexible, reusable and efficient
 License:	PHP License
 Group:		Development/PHP
@@ -15,7 +15,6 @@ Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	php-pear
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 The PEAR::HTML_Table package provides methods for easy and efficient
@@ -32,7 +31,6 @@ design of HTML tables.
 mv package.xml %{upstream_name}-%{version}/%{upstream_name}.xml
 
 %install
-rm -rf %{buildroot}
 
 cd %{upstream_name}-%{version}
 pear install --nodeps --packagingroot %{buildroot} %{upstream_name}.xml
@@ -45,7 +43,6 @@ install -d %{buildroot}%{_datadir}/pear/packages
 install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 %clean
-rm -rf %{buildroot}
 
 
 
