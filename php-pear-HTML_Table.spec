@@ -5,7 +5,7 @@
 Summary:	Makes HTML tables easy, flexible, reusable and efficient
 Name:		php-pear-%{modname}
 Version:	1.8.3
-Release:	13
+Release:	14
 License:	PHP License
 Group:		Development/PHP
 Url:		http://pear.php.net/package/HTML_Table/
