@@ -8,7 +8,7 @@ Version:	1.8.3
 Release:	14
 License:	PHP License
 Group:		Development/PHP
-Url:		http://pear.php.net/package/HTML_Table/
+Url:		https://pear.php.net/package/HTML_Table/
 Source0:	http://download.pear.php.net/package/%{modname}-%{version}.tgz
 BuildArch:	noarch
 BuildRequires:	php-pear
